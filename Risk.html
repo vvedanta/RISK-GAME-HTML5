@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css">
+  body {
+    margin: 0;
+    padding: 20px;
+    background: #FFF
+  }
+
+  canvas {
+    font-family: helvetica-light;
+  }
+
+  #load {
+    font-family: helvetica-light;
+    visibility: hidden;
+    height: 0px;
+  }
+
+  @font-face {
+    font-family: helvetica-light;
+    src: url('fonts/helvetica-light-webfont.ttf');
+  }
+
+  @font-face {
+    font-family: helvetica-bold;
+    src: url('fonts/helvetica_bold-webfont.ttf');
+  }
+
+</style>
+
+<head>
+  <title>RISK - A V&amp;L PROJECT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=640">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="640">
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+  <div id="load">words</div>
+  <!-- load font -->
+  <canvas id="canvas" width="600" height="540" style="display:block;margin:auto;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none"></canvas>
+  <script src="js/Risk.js"></script>
+  <script src="js/PlayerHandler.js"></script>
+  <script src="js/RenderHandler.js"></script>
+  <script src="js/GridHandler.js"></script>
+  <script src="js/ControllerHandler.js"></script>
+  <script src="js/AIHandler.js"></script>
+</body>
+
+</html>
